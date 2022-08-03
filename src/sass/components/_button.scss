@@ -1,3 +1,52 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the button component.
-// -----------------------------------------------------------------------------
+.button-primary-m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    gap: 10px;
+    position: absolute;
+    width: 207px;
+    height: 52px;
+    left: calc(50% - 207px/2 - 126.5px);
+    bottom: 0px;
+    background: $color-primary;
+    border-radius: 100px;
+}
+
+.button-primary-l{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    gap: 10px;
+    position: absolute;
+    width: 261px;
+    height: 52px;
+    left: 470px;
+    top: 645px;
+    background: $color-primary;
+    border-radius: 100px;
+}
+
+.button-secondary-m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    gap: 10px;
+    width: 187px;
+    height: 52px;
+    border: 2px solid $color-primary;
+    border-radius: 100px;
+}
+
+.button-secondary-s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px 19px;
+    border: 2px solid $color-primary;
+    border-radius: 100px;
+    transform: rotate(-180deg);
+}
+

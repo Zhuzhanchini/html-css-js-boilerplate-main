@@ -6,6 +6,8 @@
  * Set up a decent box model on the root element
  */
 html {
+  position: relative;
+  max-width: 1280px;  
   box-sizing: border-box;
 }
 

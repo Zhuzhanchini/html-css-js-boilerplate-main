@@ -19,8 +19,10 @@
 
 // 4. Layout-related sections
 @import
+  'layout/start-screen.scss',
   'layout/header',
   'layout/footer';
+  
 
 // 5. Components
 @import
