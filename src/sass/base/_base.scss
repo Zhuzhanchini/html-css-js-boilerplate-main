@@ -8,8 +8,16 @@
 html {
   position: relative;
   max-width: 1280px;  
-  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+
+body{
+  font-family: $default-font;
+}
+
+
 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
@@ -23,15 +31,3 @@ html {
   box-sizing: inherit;
 }
 
-/**
- * Basic styles for links
- */
-a {
-  color: $brand-color;
-  text-decoration: none;
-
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
-  }
-}

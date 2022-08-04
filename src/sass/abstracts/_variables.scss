@@ -1,8 +1,9 @@
 // -----------------------------------------------------------------------------
 // Sass переменные
 // -----------------------------------------------------------------------------
+$default-font: Georgia , normal;
 
-//
+
 
 //Color styles//
 $color-light-xl: color #FFFFFF;
@@ -18,9 +19,6 @@ $color-primary: color #F1CDB3;
 $color-primary-light: color #FDDCC4;
 
 
-//Styles for h#
-$font-h: font Georgia , normal;
-
 //Styles for p#
 $font-p1: font Arial, normal;
-$font-p1: font Arial, italic;
+$font-p2: font Arial, italic;
