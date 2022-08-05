@@ -8,6 +8,13 @@ h1{
     color: $clr-primary;
 }
 
+h2{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: $clr-light-xl;
+}
+
 .p1{
     font-weight: 400;
     font-family: $font-p1;
@@ -17,6 +24,17 @@ h1{
     font-size: 13px;
     line-height: 15px;
     color: $clr-primary-light;
+}
+
+.p2{
+    font-weight: 400;
+    font-family: $font-p1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    line-height: 160%;
+    color: $clr-dark-s;
 }
 
 .top-header-nav__link{

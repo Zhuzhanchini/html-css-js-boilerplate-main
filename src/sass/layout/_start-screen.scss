@@ -1,6 +1,32 @@
 .start-screen{
-    display:flex;
-    align-items: center;
     width: 1200px;
     height: 728px;
-}
+    display: flex;
+    flex-direction: column;
+    background-image: url('/src/assets/start-screen-background.jpg');
+   
+    
+
+    &__content{
+        width: 460px;
+        height: 322px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 223px;
+        
+        &__button{
+            @include button-primary-m;
+            font-family: $default-font;
+            color: $clr-dark-3xl;
+            letter-spacing: 0.06em;
+            font-size: 17px;
+            margin-top: 57px;
+            
+        
+
+        }
+            }
+            
+    }
+ 
+ //
