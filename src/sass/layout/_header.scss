@@ -1,1 +1,24 @@
+.top-header{
+    
+    max-height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 40px 0px 40px;
+
+    &__logo{
+       display: flex;
+       flex-direction: column;
+    }
+    
+    &__nav{
+        width: 443px;
+        height: 27px;
+        margin-top: 16.5px;
+        margin-bottom: 16.5px;
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
 

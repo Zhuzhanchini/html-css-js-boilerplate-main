@@ -1,10 +1,26 @@
 h1{
-    font-family: 'Georgia';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 110%; 
-    display: flex;
-    align-items: center;
     letter-spacing: 0.06em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: $clr-primary;
+}
+
+.p1{
+    font-weight: 400;
+    font-family: $font-p1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    line-height: 15px;
+    color: $clr-primary-light;
+}
+
+.top-header-nav__link{
+    color: $clr-dark-s;
+    font-family: $font-p1;
+    text-decoration: none;
 }
