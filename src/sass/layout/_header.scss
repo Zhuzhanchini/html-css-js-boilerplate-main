@@ -27,5 +27,17 @@
     }
 }
 
+.start-screen__top-header__nav__link_active{
+    color: $clr-dark-s;
+    font-family: $font-p1;
+    border-color: $clr-primary;
+    text-decoration:underline;
+    text-decoration-color: $clr-primary;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.5rem;
+  
+   
+    
+}
 
 
