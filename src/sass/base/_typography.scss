@@ -1,22 +1,4 @@
-h1{
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 110%; 
-    letter-spacing: 0.06em;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    color: $clr-primary;
-}
 
-h2{
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 130%;
-    color: $clr-light-xl;
-    margin: 0px;
-    width: 310px;
-    height: 114px;
-}
 
 h3{
     width: 370px;
@@ -27,24 +9,6 @@ h3{
     line-height: 130%;
     color: $clr-dark-l;
     letter-spacing: 0.06em;
-}
-
-.top-header-p{
-    font-weight: 400;
-    font-family: $font-p1;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    letter-spacing: 0.1em;
-    font-size: 13px;
-    line-height: 15px;
-    color: $clr-primary-light;
-}
-
-.start-screen-p{ 
-    font-family: $font-p1;
-    font-size: 15px;
-    color: $clr-dark-s;
-    line-height: 160%;
 }
 
 .about-content-p{
