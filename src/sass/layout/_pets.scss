@@ -13,15 +13,15 @@
         justify-content: center;}
 
     &__h3{
-        display: flex;
-        width: 370px;
+        width: 400px;
         height: 90px;
         font-weight: 400;
         font-size: 35px;
         margin: 0px;
         line-height: 130%;
         color: $clr-dark-l;
-        letter-spacing: 0.06em;}
+        letter-spacing: 0.06em;
+        text-align: center;}
 
     &__slider{
         width: 1200px;
@@ -51,22 +51,58 @@
     &__arrow-right{
         color: $clr-dark-3xl;}
 
+    &__slide-list{
+        width: 990px;
+        height: 435px;
+        margin-left:53px;
+        margin-right:53px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;}
+
     &__card{
         width: 270px;
         height: 435px;
         background-color: $clr-light-s;
         border-radius: 9px;
-    }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;}
 
-    &__image{}
+    &__title{
+        font-family: $default-font;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.06em;
+        color: $clr-dark-l;}
 
-    &__title{}
+    &__card-button{
+        width: 187px;
+        height: 52px;
+        gap: 10px;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+        border: 2px solid $clr-primary;
+        border-radius: 100px;
+        font-family: $default-font;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+        color: $clr-dark-3xl;}
 
-    &__card-button{}
-
-    &__rest-button{}
-
-    
-
-
+    &__rest-button{
+        width: 261px;
+        height: 52px;
+        padding: 0px;
+        gap: 10px;
+        background: $clr-primary;
+        border-radius: 100px;
+        font-family: $default-font;
+        font-size: 17px;
+        line-height: 130%;
+        color: $clr-dark-3xl;
+        letter-spacing: 0.06em;}
 }
