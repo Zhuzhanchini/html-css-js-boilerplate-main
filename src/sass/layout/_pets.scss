@@ -2,5 +2,71 @@
     height: 877px;
     background-color: $clr-light-l;
     display: flex;
-    flex-direction: column;
+        
+    &__content{
+        width: 1200px;
+        height: 697px;
+        margin: 80px 40px 100px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;}
+
+    &__h3{
+        display: flex;
+        width: 370px;
+        height: 90px;
+        font-weight: 400;
+        font-size: 35px;
+        margin: 0px;
+        line-height: 130%;
+        color: $clr-dark-l;
+        letter-spacing: 0.06em;}
+
+    &__slider{
+        width: 1200px;
+        height: 435px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;}
+
+    &__slider-button{
+        width: 52px;
+        height: 52px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 23px 19px;
+        border: 2px solid $clr-primary;
+        border-radius: 100px;}
+
+    &__arrow-left{
+        color: $clr-dark-3xl;}
+
+    &__arrow-right{
+        color: $clr-dark-3xl;}
+
+    &__card{
+        width: 270px;
+        height: 435px;
+        background-color: $clr-light-s;
+        border-radius: 9px;
+    }
+
+    &__image{}
+
+    &__title{}
+
+    &__card-button{}
+
+    &__rest-button{}
+
+    
+
+
 }

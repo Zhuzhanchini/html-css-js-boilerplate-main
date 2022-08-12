@@ -1,5 +1,5 @@
 .start-screen{
-    width: 1200px;
+    width: 1280px;
     height: 890px;
     margin-bottom: 18px;
     display: flex;
@@ -44,19 +44,19 @@
     &__nav-link{
       color: $clr-dark-s;
       font-family: $font-p1;
-      text-decoration: none;}
-
-    &--nav-link_active{
-      color: $clr-dark-s;
-      font-family: $font-p1;
-      border-color: $clr-primary;
-      text-decoration:underline;
-      text-decoration-color: $clr-primary;
-      text-decoration-thickness: 3px;
-      text-underline-offset: 0.5rem;}
+      text-decoration: none;
+    
+      &_active{
+        color: $clr-dark-s;
+        font-family: $font-p1;
+        border-color: $clr-primary;
+        text-decoration:underline;
+        text-decoration-color: $clr-primary;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 0.5rem;}}
 
     &__content{
-      max-width: 1120px;
+      max-width: 1200px;
       height: 710px;
       display: flex;
       justify-content: space-between;
@@ -85,8 +85,9 @@
       margin: 0px;
       font-family: $font-p1;
       font-size: 15px;
+      text-align: justify;
       color: $clr-dark-s;
-      line-height: 160%;}
+      line-height: 24px;}
     
     &__button{
       @include button-primary-m;
@@ -98,6 +99,7 @@
     &__puppy{
       width: 698px;
       height: 710px;
+      margin-left: 42px;
       background-image: url(/src/assets/start-screen-puppy.png);}
     
     }

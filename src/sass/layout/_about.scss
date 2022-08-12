@@ -33,4 +33,27 @@
         flex-direction: column;
         justify-content: space-between;}
 
+    &__h3{
+        width: 370px;
+        height: 90px;
+        font-weight: 400;
+        font-size: 35px;
+        margin: 0px;
+        line-height: 130%;
+        color: $clr-dark-l;
+        letter-spacing: 0.06em;}
+
+    &__p{
+        font-weight: 400;
+        font-family: $font-p1;
+        margin: 0px;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: justify;
+        color: $clr-dark-xl;
+        display: flex;
+        align-items: center;
+        width: 430px;}
+       
+        
     }
