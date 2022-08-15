@@ -1,5 +1,7 @@
 # Shelter
 
+
+
 Shelter - это проект, в котором вам предстоит сверстать сайт, состоящий из двух страниц, сделать его адаптивным и интерактивным.
 
 **[Макет Shelter. Figma](https://www.figma.com/file/tKcmzkARtMUFQAR9VLdLkl/shelter-dom)**

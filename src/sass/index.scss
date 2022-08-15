@@ -1,8 +1,19 @@
-html {
-    color: green;
-    background: url('../assets/image.jpg');
-}
+@charset "UTF-8";
 
-::placeholder {
-    color: gray;
-}
+@import
+  'abstracts/variables',
+  'components/mixins',
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers',
+  'layout/main',
+  'layout/start-screen',
+  'layout/about',
+  'layout/pets',
+  'layout/help',
+  'layout/donation',
+  'layout/footer',
+  'components/button',
+  'pages/home';
+
