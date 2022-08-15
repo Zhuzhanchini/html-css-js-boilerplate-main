@@ -1,52 +1,55 @@
 .help{
     height: 611px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     
     &__content{
-        width: 1200px;
         height: 431px;
         display: flex;
         align-items: center;
         flex-direction: column;
-    justify-content: space-between;}
+        margin: 80px 40px 100px 40px;
+    }
     
     &__h3{
         width: 308px;
         height: 90px;
         font-weight: 400;
         font-size: 35px;
-        margin: 0px;
         line-height: 130%;
+        margin: 0px 0px 60px 0px;
         color: $clr-dark-l;
         letter-spacing: 0.06em;
         text-align: center;}
 
     &__list{
         width: 1026px;
-        height: 218px;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        justify-items: center;
-        
-        
-        
-    }
-    &__item1{
-        grid-column-start: 1;
-        
-    
-    }
+        height: 281px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 55px;
+        column-gap: 5em;
+        justify-content: center;
+        margin: 0px 87px 0px 87px;}
 
-    &__item6{
-        grid-column-start: 2;
-    
-    }
+    &__item{
+        width: auto;
+        height: 113px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
 
-    &__item-image{}
+    &__item-image{
+        width: 60px;
+        height: 60px;}
 
-    &__h4{}
+    &__h4{
+        font-family: $default-font;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: $clr-dark-l;
+        margin-bottom: 0px;
+        margin-top: 30px;}
 
 }

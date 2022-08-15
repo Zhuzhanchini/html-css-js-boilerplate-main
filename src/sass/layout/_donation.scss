@@ -1,0 +1,84 @@
+.donation{
+    height: 462px;
+    background-color: $clr-light-l;
+    display: flex;
+    
+
+    &__content{
+        width: 915px;
+        height: 282px;
+        margin: 80px 182px 100px 183px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;}
+
+    &__dog{
+        width: 505px;
+        height: 261px;
+        margin-top: 11px;
+        margin-bottom: 10px;
+        background-image: url(/src/assets/donation-dog.png);}
+
+    &__card{
+        width: 380px;
+        height: 282px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;}
+
+    &__h3{
+        width: 300px;
+        height: 90px;
+        font-family: $default-font;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: $clr-dark-l;
+        margin: 0px;}
+
+    &__h5{
+        font-family: $default-font;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+        color: $clr-dark-l;
+        margin: 0px;}
+
+    &__card-number{
+        width: 349px;   
+        height: 43px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background: $clr-primary;
+        border-radius: 9px;}
+
+    &__card-icon{
+        width: 30px;
+        height: 23px;  
+        margin: 0px;}
+
+    &__h4{
+        font-family: $default-font;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: $clr-dark-l;
+        margin: 0px;}
+
+    &__p{
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: $clr-dark-m;
+        margin: 0px;}
+
+}

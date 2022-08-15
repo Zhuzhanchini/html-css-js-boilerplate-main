@@ -1,3 +1,107 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
-// -----------------------------------------------------------------------------
+footer{
+    width: 1280px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(/src/assets/footer-gradient-background.png);
+
+  }
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 310px;
+    margin: 40px 40px 0px 40px;
+
+
+    &__contacts{
+        width: 287px;
+        height: 234px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 16px;
+        margin-bottom: 60px;}
+
+    &__h3{
+        height: 90px;
+        font-family: $default-font;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: $clr-light-xl;
+        margin: 0px;}
+
+    &__mail{
+        width: 251px;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;}
+
+    &__mail-image{
+        width: 40px;
+        height: 32px;}
+
+    &__h4{
+        font-family: $default-font;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: $clr-primary;
+        margin: 0px;}
+
+    &__phone{
+        width: 239px;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;}
+
+    &__phone-image{
+        width: 40px;
+        height: 32px;}
+
+    &__locations{
+        width: 302px;
+        height: 234px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 16px;
+        margin-bottom: 60px;}
+
+    &__location-1{
+        width: 302px;
+        height: 46px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;}
+
+    &__location-1-image{
+        width: 22px;
+        height: 32px;}
+
+    &__location-2{
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;}
+
+    &__location-2-image{
+        width: 22px;
+        height: 32px;}
+
+    &__puppy{
+        background-image: url(/src/assets/footer-puppy.png);
+        width: 300px;
+        height: 310px;}
+
+}
