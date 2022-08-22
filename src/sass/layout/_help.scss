@@ -4,9 +4,8 @@
     
     &__content{
         height: 431px;
-        display: flex;
+        @include flex-column;
         align-items: center;
-        flex-direction: column;
         margin: 80px 40px 100px 40px;
     }
     
@@ -34,8 +33,7 @@
     &__item{
         width: auto;
         height: 113px;
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         align-items: center;}
 
     &__item-image{

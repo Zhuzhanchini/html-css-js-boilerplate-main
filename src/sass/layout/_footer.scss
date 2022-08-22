@@ -1,9 +1,8 @@
 footer{
     width: 1280px;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flex-row;
+    @include items-center-center;
     background-image: url(/src/assets/footer-gradient-background.png);
 
   }
@@ -19,8 +18,7 @@ footer{
     &__contacts{
         width: 287px;
         height: 234px;
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         justify-content: space-between;
         margin-top: 16px;
         margin-bottom: 60px;}
@@ -38,10 +36,9 @@ footer{
     &__mail{
         width: 251px;
         height: 32px;
-        display: flex;
-        flex-direction: row;
+        @include flex-row;
         align-items: center;
-        justify-content: space-between;}
+        @include items-center-space-between;}
 
     &__mail-image{
         width: 40px;
@@ -59,10 +56,8 @@ footer{
     &__phone{
         width: 239px;
         height: 32px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;}
+        @include flex-row;
+        @include items-center-space-between;}
 
     &__phone-image{
         width: 40px;
@@ -71,8 +66,7 @@ footer{
     &__locations{
         width: 302px;
         height: 234px;
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         justify-content: space-between;
         margin-top: 16px;
         margin-bottom: 60px;}
@@ -80,8 +74,7 @@ footer{
     &__location-1{
         width: 302px;
         height: 46px;
-        display: flex;
-        flex-direction: row;
+        @include flex-row;
         align-items: center;
         gap: 20px;}
 
@@ -91,8 +84,7 @@ footer{
 
     &__location-2{
         height: 32px;
-        display: flex;
-        flex-direction: row;
+        @include flex-row;
         align-items: center;
         gap: 20px;}
 

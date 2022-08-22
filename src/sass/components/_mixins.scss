@@ -1,3 +1,42 @@
+//-------------display + direction-------------//
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;    
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;    
+}
+
+@mixin content-center-space-between{
+    align-content: center;
+    justify-content: space-between;
+}
+
+@mixin content-center-center{
+    align-content: center;
+    justify-content: center;
+}
+
+@mixin items-center-center {
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin items-center-space-between{
+      align-items: center;
+      justify-content: space-between;
+
+}
+
+//-------------display + direction-------------//
+
+
+
+//---------------------buttons--------------------------//
+
 @mixin button-primary-m{
     width: 207px;
     height: 52px;
@@ -5,3 +44,4 @@
     background: $clr-primary;
     border-radius: 100px;
 }
+//---------------------buttons--------------------------//

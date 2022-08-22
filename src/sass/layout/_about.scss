@@ -1,16 +1,13 @@
 .about{
     height: 588px;
     margin-bottom: 18px;
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     background-color: $clr-light-xl;
 
     &__content{
         margin: 80px 40px 100px 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;}
+        @include flex-row;
+        @include items-center-space-between;}
 
     &__pets{
         margin-left: 175px;
@@ -28,8 +25,7 @@
         margin-bottom: 14px;
         min-width: 430px;
         min-height: 380px;
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         justify-content: space-between;}
 
     &__h3{

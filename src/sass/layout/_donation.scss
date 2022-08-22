@@ -8,9 +8,9 @@
         width: 915px;
         height: 282px;
         margin: 80px 182px 100px 183px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;}
+        @include flex-row;
+        @include content-center-space-between;
+       }
 
     &__dog{
         width: 505px;
@@ -22,10 +22,9 @@
     &__card{
         width: 380px;
         height: 282px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: space-between;}
+        @include flex-column;
+        @include content-center-space-between;
+       }
 
     &__h3{
         width: 300px;
@@ -50,10 +49,8 @@
     &__card-number{
         width: 349px;   
         height: 43px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        @include flex-row;
+        @include items-center-center;
         gap: 10px;
         background: $clr-primary;
         border-radius: 9px;}
