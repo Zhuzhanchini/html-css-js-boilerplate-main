@@ -1,15 +1,15 @@
 .start-screen{
     max-width: 100%;
-    height: 890px;
-    margin-bottom: 18px;
+    height: 69.53%;
+    margin-bottom: 1.41%;
     @include flex-column;
     background-image: url('/src/assets/start-screen-background.jpg');
     
     &__top-header{
-      max-height: 60px;
+      max-height: 4.69%;
       @include flex-row;
       @include items-center-space-between;
-      margin: 60px 40px 0px 40px;}
+      margin: 4.69% 3.12% 0% 3.12%;}
 
     &__title{
       font-weight: 400;
@@ -17,22 +17,23 @@
       font-size: 32px;
       line-height: 110%; 
       letter-spacing: 0.06em;
-      margin: 0px 0px 10px 0px;
+      margin: 0% 0% 1.56% 0%;
       color: $clr-primary;}
 
     &__subtitle{
       font-weight: 400;
       font-family: $font-p1;
-      margin: 0px;
+      margin: 0%;
       letter-spacing: 0.1em;
       font-size: 13px;
       line-height: 15px;
       color: $clr-light-xl;}
 
+      // почему с процентами сжимается? //
     &__nav{
       width: 443px;
       height: 27px;
-      margin: 16.5px 0px 16.5px 0px;
+      margin: 1.25% 0% 1.25% 0%;
       @include flex-row;
       justify-content: space-between;}
 
@@ -52,10 +53,10 @@
 
     &__content{
       max-width: 100%;
-      height: 710px;
+      height: 55.47%;
       @include flex-row;
       @include content-center-space-between;
-      margin: 60px 40px 0px 40px;}
+      margin: 4.69% 3.12% 0% 3.12%;}
 
     &__content-info{
       max-width: 100%;
